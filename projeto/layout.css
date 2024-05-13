@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(243, 237, 242);
+}
+
+header{
+    background-color: rgb(203, 49, 241);
+    width: 100%;
+    height: 12vh;
+    text-align: center;
+}
+
+footer.caixa {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(203, 49, 241);
+    padding: 1em 0;
+    text-align: center;
+    margin-right: 7%;
+}
+
+footer.caixa a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center; 
+    line-height: 3em; 
+    color: black; 
+    text-decoration: none;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*CSS dos textos.*/
+
+h1{
+    position: relative;;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    bottom: 58%;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+}
+
+ion-icon{
+    color: black;
+    height: 57px;
+    width: 40px;
+}
+
+#logo {
+    position: relative;
+    top: 20%;
+    right: 46%;
+    width: 70px;
+    height: 70px;
+    margin-top: 13px;
+}
+.textos{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 80%;
+}
+
+
+/**IMAGES**/
+
+#slider{
+    margin-left: 17%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1400px;
+    height: 35vw;
+    max-height: 20%;
+    position: relative;
+}
+#slider img{
+    position: relative;
+    border-radius: 15px;
+    opacity: 0;
+    margin-bottom: 14%;
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    object-fit: fill;
+    transition: opacity 600ms;
+    margin-right: 6%;
+
+}
+#slider img.selected {
+    opacity: 1;
+}
+

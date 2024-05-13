@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+footer.caixa {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(203, 49, 241);
+    padding: 1em 0;
+    text-align: center;
+    margin-right: 7%;
+}
+
+footer.caixa a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center; 
+    line-height: 3em; 
+    color: black; 
+    text-decoration: none;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+ion-icon{
+    color: black;
+    height: 57px;
+    width: 40px;
+}
+
+#logo {
+    position: relative;
+    top: 20%;
+    right: 46%;
+    width: 70px;
+    height: 70px;
+    margin-top: 13px;
+}
